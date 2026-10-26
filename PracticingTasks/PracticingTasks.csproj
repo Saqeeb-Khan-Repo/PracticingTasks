@@ -5,7 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>PracticingTasks.Collections</StartupObject>
+    <StartupObject>PracticingTasks.Mastering.StringProblems</StartupObject>
+
   </PropertyGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 ﻿using PracticingTasks.Enum;
-using System.ComponentModel.DataAnnotations;
+
 
 namespace PracticingTasks.Models;
 
@@ -12,4 +12,5 @@ public class Employees
     public Guid? EmployeeID { get; set; }
     public GenderOptions? Gender { get; set; }
 
+    public string? Department { get; set; }
 }
