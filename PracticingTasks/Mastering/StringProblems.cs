@@ -5,38 +5,44 @@ public class StringProblems
 {
     public static void Main()
     {
-        string str = "Hello";
-        var result = CountCharFrequency(str);
-        foreach (var pair in result)
-        {
-            Console.Write($"{pair.Key}: {pair.Value}, ");
-        }
+        string str1 = "silent";
+        string str2 = "listen";
+
+        var result = CheckAnagram(str1,str2);
+        Console.WriteLine("isAnagram: "+result);
 
     }
-
-    public static Dictionary<char,int> CountCharFrequency(string s)
+    public static bool CheckAnagram(string s1,string s2)
     {
-        Dictionary<char, int> frequency = new Dictionary<char, int>();
+        string a = new string(s1.ToLower().Where(char.IsLetter).OrderBy(a => a).ToArray());
+        string b = new string(s2.ToLower().Where(char.IsLetter).OrderBy(a => a).ToArray());
 
-        foreach (char item in s.ToLower())
-        {
-            if (!char.IsLetter(item))
-            {
-                continue; //skip
-            }
-            if (frequency.ContainsKey(item))
-            {
-                frequency[item]++;
-            }
-            else
-            {
-                frequency[item] = 1;
-            }
-          
-        }
-
-        return frequency;
+        return a == b;
     }
+
+    //public static Dictionary<char,int> CountCharFrequency(string s)
+    //{
+    //    Dictionary<char, int> frequency = new Dictionary<char, int>();
+
+    //    foreach (char item in s.ToLower())
+    //    {
+    //        if (!char.IsLetter(item))
+    //        {
+    //            continue; //skip
+    //        }
+    //        if (frequency.ContainsKey(item))
+    //        {
+    //            frequency[item]++;
+    //        }
+    //        else
+    //        {
+    //            frequency[item] = 1;
+    //        }
+
+    //    }
+
+    //    return frequency;
+    //}
 
     //public static (int vol , int caso) CountVowelsAndCasonants(string s)
     //{

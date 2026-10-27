@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
-    <StartupObject>PracticingTasks.Mastering.StringProblems</StartupObject>
+    <StartupObject>PracticingTasks.Mastering.IntermediateProblems</StartupObject>
 
   </PropertyGroup>
 
