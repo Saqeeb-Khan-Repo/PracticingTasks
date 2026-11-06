@@ -9,4 +9,8 @@
 
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ChanllengePractice\Price\" />
+  </ItemGroup>
+
 </Project>

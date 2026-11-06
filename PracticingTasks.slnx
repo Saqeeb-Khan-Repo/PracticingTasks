@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="PracticingTasks/PracticingTasks.csproj" />
+  <Project Path="TestProject1/StockManagement.Test.csproj" Id="28e3c01c-8cbf-4958-b074-57ccab52d79e" />
 </Solution>
