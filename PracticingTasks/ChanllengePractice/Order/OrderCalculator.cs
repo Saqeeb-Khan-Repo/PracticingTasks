@@ -86,7 +86,7 @@ public class OrderCalculator
             //calulating subTotal 
             subTotal += item!.Quantity * item.UnitPrice;
         }
-        //calculating subtotal
+
         return subTotal;
 
     }
