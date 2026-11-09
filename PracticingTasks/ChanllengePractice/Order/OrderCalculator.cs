@@ -1,5 +1,5 @@
 ﻿namespace PracticingTasks.ChanllengePractice.Order;
-
+//git merge practice
 public class OrderCalculator
 {
     public OrderCalResult CalculateTotal(List<OrderItem?>? orderItems,
@@ -86,7 +86,7 @@ public class OrderCalculator
             //calulating subTotal 
             subTotal += item!.Quantity * item.UnitPrice;
         }
-
+        //calculating subtotal
         return subTotal;
 
     }
