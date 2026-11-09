@@ -1,5 +1,5 @@
 ﻿namespace PracticingTasks.ChanllengePractice.Order;
-
+//git merge practice
 public class OrderCalculator
 {
     public OrderCalResult CalculateTotal(List<OrderItem?>? orderItems,
